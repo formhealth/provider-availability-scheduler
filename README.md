@@ -27,7 +27,7 @@ Given a list of providers with their timezones and recurring weekly availability
 
 ### 1. Review the Input Format
 
-Check out `inputs/level1_input.json` to see the structure:
+Check out [`inputs/level1_input.json`](https://raw.githubusercontent.com/formhealth/provider-availability-scheduler/main/inputs/level1_input.json) to see the structure:
 
 ```json
 {
@@ -56,7 +56,7 @@ Check out `inputs/level1_input.json` to see the structure:
 
 ### 2. Check the Expected Output
 
-See `outputs/level1_output.json` for what your solution should produce:
+See [`outputs/level1_output.json`](https://raw.githubusercontent.com/formhealth/provider-availability-scheduler/main/outputs/level1_output.json) for what your solution should produce:
 
 ```json
 {
@@ -87,18 +87,18 @@ Create a Ruby class (or your preferred language) that:
 
 ### Level 1: Core Slot Generation
 
-**Input**: `inputs/level1_input.json`
+**Input**: [`inputs/level1_input.json`](https://raw.githubusercontent.com/formhealth/provider-availability-scheduler/main/inputs/level1_input.json)
 - 2 providers across different timezones
 - 5-day date range (Jan 20-24, 2026)
 - 30-minute appointment slots
 - Output timezone: America/Chicago
 
-**Expected**: `outputs/level1_output.json`
+**Expected**: [`outputs/level1_output.json`](https://raw.githubusercontent.com/formhealth/provider-availability-scheduler/main/outputs/level1_output.json)
 - 56 total slots
 
 ### Level 2: Availability Exceptions
 
-**Input**: `inputs/level2_input.json`
+**Input**: [`inputs/level2_input.json`](https://raw.githubusercontent.com/formhealth/provider-availability-scheduler/main/inputs/level2_input.json)
 
 Providers can have exceptions (blocked time periods):
 
@@ -115,12 +115,12 @@ Providers can have exceptions (blocked time periods):
 }
 ```
 
-**Expected**: `outputs/level2_output.json`
+**Expected**: [`outputs/level2_output.json`](https://raw.githubusercontent.com/formhealth/provider-availability-scheduler/main/outputs/level2_output.json)
 - 47 slots (9 fewer due to exceptions)
 
 ### Level 3: Existing Appointments
 
-**Input**: `inputs/level3_input.json`
+**Input**: [`inputs/level3_input.json`](https://raw.githubusercontent.com/formhealth/provider-availability-scheduler/main/inputs/level3_input.json)
 
 Filter out slots that overlap with existing appointments:
 
@@ -136,12 +136,12 @@ Filter out slots that overlap with existing appointments:
 }
 ```
 
-**Expected**: `outputs/level3_output.json`
+**Expected**: [`outputs/level3_output.json`](https://raw.githubusercontent.com/formhealth/provider-availability-scheduler/main/outputs/level3_output.json)
 - 40 slots (7 fewer due to appointments)
 
 ### Level 4: Patient Preferences
 
-**Input**: `inputs/level4_input.json`
+**Input**: [`inputs/level4_input.json`](https://raw.githubusercontent.com/formhealth/provider-availability-scheduler/main/inputs/level4_input.json)
 
 Filter slots based on patient's preferred time of day:
 
@@ -158,7 +158,7 @@ Time preferences (in output timezone):
 - **Afternoon**: 12:00 PM - 6:00 PM
 - **Evening**: 6:00 PM - 10:00 PM
 
-**Expected**: `outputs/level4_output.json`
+**Expected**: [`outputs/level4_output.json`](https://raw.githubusercontent.com/formhealth/provider-availability-scheduler/main/outputs/level4_output.json)
 - 34 slots (only afternoon slots)
 
 ---
