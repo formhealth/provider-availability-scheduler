@@ -231,6 +231,41 @@ slots = scheduler.find_slots(
 puts JSON.pretty_generate({ slots: slots, total_slots: slots.length })
 ```
 
+### Fetch Test Data Directly
+
+You can fetch test data directly from GitHub without cloning the repo:
+
+```ruby
+require 'net/http'
+require 'json'
+
+# Fetch input data
+url = 'https://raw.githubusercontent.com/formhealth/provider-availability-scheduler/main/inputs/level1_input.json'
+input = JSON.parse(Net::HTTP.get(URI(url)))
+
+# Run your solution
+scheduler = AvailabilityScheduler.new
+result = scheduler.find_slots(
+  providers: input['providers'],
+  date_range: Date.parse(input['date_range']['start_date'])..Date.parse(input['date_range']['end_date']),
+  duration_minutes: input['duration_minutes'],
+  output_timezone: input['output_timezone']
+)
+
+# Fetch expected output for comparison
+expected_url = 'https://raw.githubusercontent.com/formhealth/provider-availability-scheduler/main/outputs/level1_output.json'
+expected = JSON.parse(Net::HTTP.get(URI(expected_url)))
+
+puts "Your solution: #{result.length} slots"
+puts "Expected: #{expected['total_slots']} slots"
+puts "Match: #{result.length == expected['total_slots']}"
+```
+
+**Available URLs:**
+- Level 1 Input: `https://raw.githubusercontent.com/formhealth/provider-availability-scheduler/main/inputs/level1_input.json`
+- Level 1 Output: `https://raw.githubusercontent.com/formhealth/provider-availability-scheduler/main/outputs/level1_output.json`
+- Level 2-4: Replace `level1` with `level2`, `level3`, or `level4` in the URLs above
+
 ---
 
 ## Tips
