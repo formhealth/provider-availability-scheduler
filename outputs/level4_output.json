@@ -1,0 +1,251 @@
+{
+  "slots": [
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-20T12:00:00-06:00",
+      "end_time": "2026-01-20T12:30:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-20T12:30:00-06:00",
+      "end_time": "2026-01-20T13:00:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-20T13:00:00-06:00",
+      "end_time": "2026-01-20T13:30:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-20T13:30:00-06:00",
+      "end_time": "2026-01-20T14:00:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-20T14:00:00-06:00",
+      "end_time": "2026-01-20T14:30:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-20T14:30:00-06:00",
+      "end_time": "2026-01-20T15:00:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-20T15:00:00-06:00",
+      "end_time": "2026-01-20T15:30:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-20T15:30:00-06:00",
+      "end_time": "2026-01-20T16:00:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_456",
+      "provider_name": "Dr. James Rodriguez",
+      "start_time": "2026-01-21T12:00:00-06:00",
+      "end_time": "2026-01-21T12:30:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_456",
+      "provider_name": "Dr. James Rodriguez",
+      "start_time": "2026-01-21T12:30:00-06:00",
+      "end_time": "2026-01-21T13:00:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_456",
+      "provider_name": "Dr. James Rodriguez",
+      "start_time": "2026-01-21T13:00:00-06:00",
+      "end_time": "2026-01-21T13:30:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_456",
+      "provider_name": "Dr. James Rodriguez",
+      "start_time": "2026-01-21T13:30:00-06:00",
+      "end_time": "2026-01-21T14:00:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_456",
+      "provider_name": "Dr. James Rodriguez",
+      "start_time": "2026-01-21T14:00:00-06:00",
+      "end_time": "2026-01-21T14:30:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_456",
+      "provider_name": "Dr. James Rodriguez",
+      "start_time": "2026-01-21T14:30:00-06:00",
+      "end_time": "2026-01-21T15:00:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-22T15:00:00-06:00",
+      "end_time": "2026-01-22T15:30:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-22T15:30:00-06:00",
+      "end_time": "2026-01-22T16:00:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-22T16:00:00-06:00",
+      "end_time": "2026-01-22T16:30:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-22T16:30:00-06:00",
+      "end_time": "2026-01-22T17:00:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-22T17:00:00-06:00",
+      "end_time": "2026-01-22T17:30:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-22T17:30:00-06:00",
+      "end_time": "2026-01-22T18:00:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_456",
+      "provider_name": "Dr. James Rodriguez",
+      "start_time": "2026-01-23T13:00:00-06:00",
+      "end_time": "2026-01-23T13:30:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_456",
+      "provider_name": "Dr. James Rodriguez",
+      "start_time": "2026-01-23T13:30:00-06:00",
+      "end_time": "2026-01-23T14:00:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_456",
+      "provider_name": "Dr. James Rodriguez",
+      "start_time": "2026-01-23T14:00:00-06:00",
+      "end_time": "2026-01-23T14:30:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_456",
+      "provider_name": "Dr. James Rodriguez",
+      "start_time": "2026-01-23T14:30:00-06:00",
+      "end_time": "2026-01-23T15:00:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_456",
+      "provider_name": "Dr. James Rodriguez",
+      "start_time": "2026-01-23T15:00:00-06:00",
+      "end_time": "2026-01-23T15:30:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_456",
+      "provider_name": "Dr. James Rodriguez",
+      "start_time": "2026-01-23T15:30:00-06:00",
+      "end_time": "2026-01-23T16:00:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_456",
+      "provider_name": "Dr. James Rodriguez",
+      "start_time": "2026-01-23T16:00:00-06:00",
+      "end_time": "2026-01-23T16:30:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_456",
+      "provider_name": "Dr. James Rodriguez",
+      "start_time": "2026-01-23T16:30:00-06:00",
+      "end_time": "2026-01-23T17:00:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_456",
+      "provider_name": "Dr. James Rodriguez",
+      "start_time": "2026-01-23T17:00:00-06:00",
+      "end_time": "2026-01-23T17:30:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_456",
+      "provider_name": "Dr. James Rodriguez",
+      "start_time": "2026-01-23T17:30:00-06:00",
+      "end_time": "2026-01-23T18:00:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-24T12:00:00-06:00",
+      "end_time": "2026-01-24T12:30:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-24T12:30:00-06:00",
+      "end_time": "2026-01-24T13:00:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-24T13:00:00-06:00",
+      "end_time": "2026-01-24T13:30:00-06:00",
+      "duration_minutes": 30
+    },
+    {
+      "provider_id": "prov_123",
+      "provider_name": "Dr. Sarah Chen",
+      "start_time": "2026-01-24T13:30:00-06:00",
+      "end_time": "2026-01-24T14:00:00-06:00",
+      "duration_minutes": 30
+    }
+  ],
+  "total_slots": 34,
+  "summary": {
+    "filter_applied": "afternoon (12pm-6pm in output timezone)",
+    "monday_jan_20": "8 afternoon slots",
+    "tuesday_jan_21": "6 afternoon slots",
+    "wednesday_jan_22": "6 afternoon slots",
+    "thursday_jan_23": "10 afternoon slots",
+    "friday_jan_24": "4 afternoon slots"
+  }
+}

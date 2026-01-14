@@ -1,0 +1,71 @@
+{
+  "providers": [
+    {
+      "id": "prov_123",
+      "name": "Dr. Sarah Chen",
+      "timezone": "America/Los_Angeles",
+      "availability_rules": [
+        {
+          "day_of_week": "monday",
+          "start_time": "09:00",
+          "end_time": "17:00"
+        },
+        {
+          "day_of_week": "wednesday",
+          "start_time": "13:00",
+          "end_time": "18:00"
+        },
+        {
+          "day_of_week": "friday",
+          "start_time": "08:00",
+          "end_time": "12:00"
+        }
+      ],
+      "exceptions": [
+        {
+          "type": "unavailable",
+          "date": "2026-01-20",
+          "start_time": "14:00",
+          "end_time": "15:30"
+        },
+        {
+          "type": "unavailable",
+          "date": "2026-01-22",
+          "start_time": "16:00",
+          "end_time": "18:00"
+        }
+      ]
+    },
+    {
+      "id": "prov_456",
+      "name": "Dr. James Rodriguez",
+      "timezone": "America/New_York",
+      "availability_rules": [
+        {
+          "day_of_week": "tuesday",
+          "start_time": "10:00",
+          "end_time": "16:00"
+        },
+        {
+          "day_of_week": "thursday",
+          "start_time": "14:00",
+          "end_time": "19:00"
+        }
+      ],
+      "exceptions": [
+        {
+          "type": "unavailable",
+          "date": "2026-01-21",
+          "start_time": "12:00",
+          "end_time": "13:00"
+        }
+      ]
+    }
+  ],
+  "date_range": {
+    "start_date": "2026-01-20",
+    "end_date": "2026-01-24"
+  },
+  "duration_minutes": 30,
+  "output_timezone": "America/Chicago"
+}
