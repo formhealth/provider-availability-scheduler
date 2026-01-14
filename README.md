@@ -203,12 +203,38 @@ Total: 16 slots
 
 ## Submission
 
+### How to Submit
+
+Choose one of the following methods:
+
+#### Option 1: Pull Request (Preferred)
+
+1. **Fork this repository** to your GitHub account
+2. **Create a new branch** with your name: `git checkout -b solution/your-name`
+3. **Add your solution** to the repository
+4. **Commit your changes**: `git commit -m "Add solution by [Your Name]"`
+5. **Push to your fork**: `git push origin solution/your-name`
+6. **Open a Pull Request** back to this repository
+7. **In the PR description**, include:
+   - How long it took you
+   - Which levels you completed (1-4)
+   - Any assumptions or decisions you made
+   - How to run your solution
+
+#### Option 2: ZIP File
+
+1. **Create a directory** with your solution
+2. **Include all files** needed to run your code
+3. **Add a README** explaining how to run it
+4. **ZIP the directory**: `solution-your-name.zip`
+5. **Email the ZIP file** to the hiring contact who sent you this challenge
+
 ### What to Include
 
 1. **Code**: Your solution (Ruby preferred, but any language is fine)
 2. **Tests**: At least 2-3 test cases showing it works
-3. **README**: Brief explanation of your approach
-4. **Time**: Note how long it took you
+3. **README**: Brief explanation of your approach and how to run it
+4. **Time**: Note how long it took you (include in README or PR description)
 
 ### How to Run
 
